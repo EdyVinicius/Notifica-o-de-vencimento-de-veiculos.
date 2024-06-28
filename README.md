@@ -46,6 +46,8 @@ When `notificador.js` is executed for the first time, it will open the command p
 
 Developed by Everton Vinicius. 
 
+evertonvinicius071@gmail.com
+
 Feel free to contact for questions, suggestions, or collaborations.
 
 ---
