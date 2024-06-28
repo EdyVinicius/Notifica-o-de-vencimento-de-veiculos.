@@ -1,53 +1,53 @@
 
-* Sistema de Controle de Vencimentos de Veículos
+# Vehicle Expiry Control System
 
-Este sistema foi desenvolvido para facilitar o controle de vencimentos de veículos, de qualquer tipo, e é composto por diversos scripts em JavaScript e Node.js, cada um responsável por uma função específica. Abaixo estão os detalhes de cada script e sua função no sistema:
+This system was developed to facilitate the control of vehicle expirations, for any type of vehicle, and is composed of several scripts in JavaScript and Node.js, each responsible for a specific function. Below are the details of each script and its function in the system:
 
-## Funcionalidades
+## Features
 
-1. **Adicionar (adicionar.js):** 
-   - Adiciona uma placa de veículo, tipo de documento, data de vencimento e número de telefone ao banco de dados.
+1. **Add (adicionar.js):** 
+   - Adds a vehicle license plate, document type, expiration date, and phone number to the database.
 
-2. **Listar (lista.js):**
-   - Lista todos os veículos registrados no banco de dados.
+2. **List (lista.js):**
+   - Lists all vehicles registered in the database.
 
-3. **Notificador (notificador.js):**
-   - Lê o banco de dados, verifica os vencimentos e notifica quando um documento está prestes a vencer. Este é o coração do sistema, responsável por fazer a verificação e envio das notificações.
+3. **Notifier (notificador.js):**
+   - Reads the database, checks expirations, and notifies when a document is about to expire. This is the heart of the system, responsible for checking and sending notifications.
 
-4. **Relatórios (relatorios.js):**
-   - Lista os veículos do banco de dados e apresenta também os dias restantes para o vencimento dos documentos.
+4. **Reports (relatorios.js):**
+   - Lists the vehicles in the database and also presents the days remaining until the documents expire.
 
-5. **Número (numero.js):**
-   - Altera os números de telefone cadastrados no sistema.
+5. **Number (numero.js):**
+   - Changes the phone numbers registered in the system.
 
-6. **Reiniciar (reiniciar.js):**
-   - Restaura o banco de dados e começa o processo novamente.
+6. **Reset (reiniciar.js):**
+   - Restores the database and starts the process again.
 
-7. **Remover (remove.js):**
-   - Remove uma placa e os documentos vinculados a ela do banco de dados.
+7. **Remove (remove.js):**
+   - Removes a license plate and the documents linked to it from the database.
 
-8. **Vencimento (vencimento.js):**
-   - Altera o vencimento de um determinado documento de uma placa específica.
+8. **Expiration (vencimento.js):**
+   - Changes the expiration date of a specific document for a specific license plate.
 
-9. **Veículos (veiculos.json):**
-   - Arquivo do banco de dados onde as informações dos veículos são armazenadas.
+9. **Vehicles (veiculos.json):**
+   - Database file where vehicle information is stored.
 
-## Como funciona o notificador.js
+## How notificador.js works
 
-Quando o `notificador.js` é executado pela primeira vez, ele abrirá o prompt de comando e gerará um QR Code. Você deverá escanear este QR Code com o WhatsApp, vinculando o sistema ao seu aplicativo. A cada determinado período de tempo, será necessário realizar novamente a leitura do QR Code para manter a vinculação ativa.
+When `notificador.js` is executed for the first time, it will open the command prompt and generate a QR Code. You should scan this QR Code with WhatsApp, linking the system to your application. At regular intervals, you will need to scan the QR Code again to keep the link active.
 
-## Instruções de Uso
+## Usage Instructions
 
-1. Clone o repositório para sua máquina local.
-2. Instale as dependências necessárias executando `npm install`.
-3. Execute os scripts conforme necessário, utilizando `node <script.js>`.
+1. Clone the repository to your local machine.
+2. Install the necessary dependencies by running `npm install`.
+3. Execute the scripts as needed, using `node <script.js>`.
 
-## Contato
+## Contact
 
-Desenvolvido por Everton Vinicius. 
-evertonvinicius071@gmail.com
-Sinta-se à vontade para entrar em contato para dúvidas, sugestões ou colaborações.
+Developed by Everton Vinicius. 
+
+Feel free to contact for questions, suggestions, or collaborations.
 
 ---
 
-Este README foi gerado para fornecer uma visão geral do sistema de controle de vencimentos de veículos, suas funcionalidades e instruções de uso. Esperamos que este sistema facilite o gerenciamento dos documentos dos seus veículos.
+This README was generated to provide an overview of the vehicle expiration control system, its features, and usage instructions. We hope this system facilitates the management of your vehicle documents.
