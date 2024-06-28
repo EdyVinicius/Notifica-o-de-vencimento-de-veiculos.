@@ -1,5 +1,5 @@
 
-* Sistema de Controle de Vencimentos de Veículos *
+* Sistema de Controle de Vencimentos de Veículos
 
 Este sistema foi desenvolvido para facilitar o controle de vencimentos de veículos, de qualquer tipo, e é composto por diversos scripts em JavaScript e Node.js, cada um responsável por uma função específica. Abaixo estão os detalhes de cada script e sua função no sistema:
 
