@@ -43,4 +43,4 @@ function atualizarDataVencimento(placa, documento, novaDataVencimento) {
 }
 
 // Exemplo de uso da função
-atualizarDataVencimento('QAU-1A04', 'CRVL', '2024-06-15');
+atualizarDataVencimento('XXX-0X00', 'XXXXXXXXXXX', '0000-00-00');

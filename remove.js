@@ -50,4 +50,4 @@ function removeVeiculo(placa) {
 }
 
 // Exemplo de uso das funções
-removeVeiculo('RWH-3J54');
+removeVeiculo('XXX-0X00');

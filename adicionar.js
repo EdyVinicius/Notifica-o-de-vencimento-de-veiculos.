@@ -53,33 +53,8 @@ function addDocumento(placa, documento, dataVencimento) {
 }
 
 // Adiciona veículo e documentos em sequência
-addVeiculo('FZF-6A30', '5567998580009', '5567992244353')
-    .then(() => addDocumento('FZF-6A30', 'CRVL', '2025-10-31'))
-    .then(() => addDocumento('FZF-6A30', 'IPVA', '2025-01-31'))
-    .then(() => addDocumento('FZF-6A30', 'CIPP', '2025-05-17'))
-    .then(() => addDocumento('FZF-6A30', 'INMETRO', '2025-02-16'))
-    .then(() => addDocumento('FZF-6A30', 'CIV', '2025-05-17'))
-    .then(() => addDocumento('FZF-6A30', 'CRONOTACÓGRAFO', '2025-02-15'))
-    .catch(err => {
-        console.error(err.message);
-    });
-addVeiculo('FQJ-5F12', '5567998580009', '5567992244353')
-    .then(() => addDocumento('FQJ-5F12', 'CRVL', '2025-04-30'))
-    .then(() => addDocumento('FQJ-5F12', 'IPVA', '2025-01-31'))
-    .then(() => addDocumento('FQJ-5F12', 'CIPP', '2025-01-17'))
-    .then(() => addDocumento('FQJ-5F12', 'INMETRO', '2026-01-17'))
-    .then(() => addDocumento('FQJ-5F12', 'CIV', '2025-01-17'))
-    .then(() => addDocumento('FQJ-5F12', 'CRONOTACÓGRAFO', '2024-11-22'))
-    .catch(err => {
-        console.error(err.message);
-    });
-addVeiculo('ITQ-6C27', '5567998580009', '5567992244353')
-    .then(() => addDocumento('ITQ-6C27', 'CRVL', '2025-08-31'))
-    .then(() => addDocumento('ITQ-6C27', 'IPVA', '2025-01-31'))
-    .then(() => addDocumento('ITQ-6C27', 'CIPP', '2024-12-12'))
-    .then(() => addDocumento('ITQ-6C27', 'INMETRO', '2025-07-31'))
-    .then(() => addDocumento('ITQ-6C27', 'CIV', '2024-12-12'))
-    .then(() => addDocumento('ITQ-6C27', 'CRONOTACÓGRAFO', '2024-07-28'))
+addVeiculo('XXX-0X00', '0000000000000', '0000000000000')
+    .then(() => addDocumento('XXX-0X00', 'XXXXXXX', '0000-00-00'))
     .catch(err => {
         console.error(err.message);
     });

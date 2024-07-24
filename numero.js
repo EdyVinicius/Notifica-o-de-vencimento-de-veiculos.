@@ -4,8 +4,8 @@ const sqlite3 = require('sqlite3').verbose();
 function updatePhoneNumbers() {
     let db = new sqlite3.Database('./veiculos.db');
 
-    let newPhone1 = '5567992244353';
-    let newPhone2 = '5567998580009';
+    let newPhone1 = '0000000000000';
+    let newPhone2 = '0000000000000';
 
     // Atualiza os números de telefone para todos os registros
     db.serialize(() => {

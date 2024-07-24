@@ -29,7 +29,7 @@ This system was developed to facilitate the control of vehicle expirations, for 
 8. **Expiration (vencimento.js):**
    - Changes the expiration date of a specific document for a specific license plate.
 
-9. **Vehicles (veiculos.bd):**
+9. **Vehicles (veiculos.json):**
    - Database file where vehicle information is stored.
 
 ## How notificador.js works
@@ -45,8 +45,6 @@ When `notificador.js` is executed for the first time, it will open the command p
 ## Contact
 
 Developed by Everton Vinicius. 
-
-evertonvinicius071@gmail.com
 
 Feel free to contact for questions, suggestions, or collaborations.
 
